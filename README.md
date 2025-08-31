@@ -14,5 +14,14 @@ $ cd bpe.py
 $ python3 main.py
 ```
 
+## Output
+Output when `main.py` is run (`$ python3 main.py`):
+```console
+Processed String: "Hello,Ġworld!"
+Processed Tokens: [72, 101, 108, 108, 111, 44, 256, 119, 111, 114, 108, 100, 33]
+Merged Tokens: [268]
+Merge Dictionary: {(72, 101): 257, (257, 108): 258, (258, 108): 259, (259, 111): 260, (260, 44): 261, (261, 256): 262, (262, 119): 263, (263, 111): 264, (264, 114): 265, (265, 108): 266, (266, 100): 267, (267, 33): 268}
+```
+
 ## License
 This project is licensed under **MIT License**. Go to `LICENSE` for more information.
